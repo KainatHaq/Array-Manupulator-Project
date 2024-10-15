@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   
+    background-color: #f5f5f5;
+    color:black; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh; 
+    font-family:'Roboto Mono', monospace;
+}
+
+
+.container {
+  
+    border-radius: 0.5rem;
+    padding: 20px;
+    max-width: 550px;
+    width: 100%;
+    border: 0.5px solid #89b8bf;
+    background-color: #f9f9f9; 
+    margin-bottom: 4.2rem;
+    margin-top: 8rem;
+}
+
+
+h1 {
+    color: #2565AE;
+    font-size: 2rem; 
+    text-align: center; 
+    margin-bottom: 1.5rem;
+}
+
+
+#array-display{
+   
+    border: 1px solid #97b7c0; 
+    color: #033a78;
+    border-radius: 0.3rem;
+    padding: 0.9rem;
+    max-height: 20rem; 
+    overflow-y: auto; 
+    margin-bottom: 2rem;
+}
+
+
+.array-res {
+    background-color: #d0ebeb; 
+    border: #d9e2c2; 
+    padding: 0.9rem;
+    margin: 5px 0; 
+    border-radius: 5px;
+  
+}
+
+.array-res:hover {
+    background-color: #d7dcc0; 
+}
+
+
+#input-section{
+    margin-bottom: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+input {
+    border: 1px solid #8cc7dd; 
+    margin-right: 0.8rem;
+    flex: 1;
+    padding: 10px;  
+    border-radius: 5px;
+    
+}
+
+
+button {
+    background-color: #2565AE; 
+    color: #ffffff; 
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: #2565AE;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #9c6a19; 
+}
+
+
+.buttonSec {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.btn {
+    color: #f5f5f5;
+    margin: 0.4rem; 
+}
+
+#result-message {
+    text-align: center;
+    margin: 1rem;
+    color: #14453d;
+}
+
+
+img {
+    max-width: 100%; 
+    height: auto; 
+}
